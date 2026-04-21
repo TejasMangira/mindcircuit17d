@@ -17,7 +17,7 @@ pipeline {
 		   stage('deploy') {
             steps {
                 echo 'Deploy into tomcat'
-				deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://98.93.33.99:8080/')], contextPath: 'Sindoor', war: '**/*.war'
+				deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://32.192.215.27:8080/')], contextPath: 'Sindoor', war: '**/*.war'
             }
         }
     }
