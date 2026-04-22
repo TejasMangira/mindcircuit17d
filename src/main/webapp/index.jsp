@@ -5,7 +5,7 @@
     <!-- IMPORTANT FIX -->
     <meta charset="UTF-8">
 
-    <title>Operation Sindoor</title>
+    <title>Tejas Gallery</title>
 
     <style>
         body {
@@ -52,7 +52,7 @@
 <body>
 
 <div class="container">
-    <h1>🔥 OPERATION SINDOOR 🔥</h1>
+    <h1>🔥 Tejas Gallery 🔥</h1>
 
     <!-- Image -->
     <img src="operation.png" alt="Operation Sindoor">
