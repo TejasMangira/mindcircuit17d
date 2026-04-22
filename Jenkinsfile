@@ -5,7 +5,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'clode the code from git'
-				git branch: 'main', url: 'https://github.com/TejasMangira/mindcircuit17d.git'
+				git branch: 'main', url: 'https://github.com/VishnuMangiras/mindcircuit17d.git'
             }
         }
 		   stage('build') {
